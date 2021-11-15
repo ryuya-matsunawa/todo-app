@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  width: 30%;
+  border: 1px solid blue;
+  border-radius: 7px;
+  box-shadow: 2px 2px gray;
+  margin: 10px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.item {
+  /* width: 100%;
+  max-width: 100%; */
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  box-shadow: 2px 2px gray;
+}
